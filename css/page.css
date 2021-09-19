@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    font-family: monospace, "Lucida Console";
+
+}
+
+a:link, a:visited {
+    color: #ffffff
+}
+
+.notoppad {
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+.nobottompad {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}

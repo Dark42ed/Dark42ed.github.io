@@ -1,0 +1,28 @@
+HTML, BODY { height: 95%;}
+
+h2.topbar {
+    color: white;
+    background-color: none;
+    padding: 10px;
+}
+
+a.topbar:link, a.topbar:visited {
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+    cursor: default;
+    font-family: "Lucida Console", monospace;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+a.current:link, a.current:visited {
+    border: 5px solid gray;
+}

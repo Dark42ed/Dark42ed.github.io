@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="/css/topbar.css">
+    <link rel="stylesheet" href="/css/page.css">
+    <link rel="stylesheet" href="/css/titles.css">
+
+
+    <style>
+        .contactBox {
+            display: inline-block;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            cursor: default;
+            padding: 10px 15px;
+        }
+
+        .ctooltip {
+            display: none;
+        }
+
+        .discord {
+            border: 5px solid rgb(114, 137, 218);
+        }
+
+        .discord:hover ~ .distooltip {
+            display: block;
+        }
+
+        .github {
+            border: 5px solid rgb(100, 100, 100);
+        }
+
+        .github:hover ~ .gittooltip {
+            display: block;
+        }
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+    <div class='topbar'>
+        <h2 class='topbar'>
+            <a href='/', class='topbar'>Home</a>
+            <a href="/projects", class='topbar'>Projects</a>
+            <a href='/contact', class='topbar current'>Contact</a>
+        </h2>
+    </div>
+
+    
+    <div class='main'>
+        <h1 class='bigtitle'>
+            Contact
+        </h1>
+        <div>
+            <h4 class="discord contactBox smalltitle">Dark42ed#4572</h4>
+            <h4 class='github contactBox smalltitle'><a href='https://github.com/Dark42ed'>Dark42ed</a></h4>
+            <h2 class='ctooltip distooltip'>Discord</h2>
+            <h2 class='ctooltip gittooltip'>Github</h2>
+        </div>
+    </div>
+
+</body>
+</html>
