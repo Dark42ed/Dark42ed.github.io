@@ -1,12 +1,12 @@
 HTML, BODY { height: 95%;}
 
-h2.topbar {
+.topbar h2 {
     color: white;
     background-color: none;
     padding: 10px;
 }
 
-a.topbar:link, a.topbar:visited {
+a.topbarbutton:link, a.topbarbutton:visited {
     background-color: black;
     color: white;
     border: 5px solid white;

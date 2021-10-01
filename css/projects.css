@@ -1,8 +1,20 @@
 .project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: min(90%, calc(100% - 40px), 550px);
-    height: 150px;
+    height: 165px;
     margin: 0 auto;
+    margin-top: 15px;
     background-color: #222222;
+
+}
+
+#finar .center {
+    transform: scale(1.2);
+}
+#finar .center h2 {
+    margin-top: 0;
 }
 
 .center {
