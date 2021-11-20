@@ -14,6 +14,18 @@
             }
         </style>
 
+        <script src="/js/texttype.js"></script>
+        <script>
+            window.addEventListener('load', (event) => {
+                setTimeout(function() {
+                    elm = document.getElementById('title');
+                    typeUnderscore(elm, "Projects", 80, 800);
+                }, 200);
+                // dynamically set iframe src to prevent onload block
+                document.getElementById('wesitch').src = "https://itch.io/embed/1131881?border_width=0&dark=true"
+            });
+        </script>
+
     </head>
 
     <body>
@@ -27,12 +39,10 @@
 
         
         <div class='main'>
-            <h1 class='bigtitle'>
-                Projects
-            </h1>
+            <h1 class='bigtitle', id='title'>_</h1>
             <br><br>
             <div class='project itch'>
-                <iframe frameborder="0" src="https://itch.io/embed/1131881?border_width=0&amp;dark=true" width="550" height="165"><a href="https://dark42ed.itch.io/windows-error-simulator">Windows Error Simulator by Dark42ed</a></iframe>
+                <iframe id="wesitch" frameborder="0" width="550" height="165"><a href="https://dark42ed.itch.io/windows-error-simulator">Windows Error Simulator by Dark42ed</a></iframe>
             </div>
             <div class='project' id="finar">
                 <div class='center'>
