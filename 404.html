@@ -4,16 +4,14 @@
 <html lang='en'>
 <head>
     <link rel="stylesheet" href="/css/page.css">
-    <link rel="stylesheet" href="/css/titles.css">
+    <link rel="stylesheet" href="/css/topbar.css">
 
 
     <title>Whoops!</title>
     <style>
         html {
-            transform: scale(2);
-            overflow-x: hidden;
-        }
-        
+            overflow-y: hidden;
+        }   
         .notoppad {
             padding-top: 7px;
             margin-top: 0%;
@@ -31,8 +29,15 @@
 </head>
 
 <body>
+    <div class='topbar'>
+        <h2>
+            <a href='/', class='top-bar-link'>Home</a>
+            <a href="/projects", class='top-bar-link'>Projects</a>
+        </h2>
+    </div>
+
     <div class='main'>
-        <h1 class='bigtitle'>404!</h1>
+        <h1 id='title'>404!</h1>
         <h1 class='nobottompad'>Something went wrong.</h1>
         <!-- <h6 class='notoppad'>If you believe that this was a mistake, please email me at contact@dark42ed.cf</h6> -->
     </div>
