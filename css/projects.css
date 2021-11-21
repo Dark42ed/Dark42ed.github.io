@@ -6,7 +6,9 @@
     height: 165px;
     margin: 0 auto;
     margin-top: 15px;
-    background-color: #222222;
+    border: 5px solid #333;
+    background-color: #222;
+    border-radius: 10px;
 
 }
 

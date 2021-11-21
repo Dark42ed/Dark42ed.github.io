@@ -1,28 +1,19 @@
-HTML, BODY { height: 95%;}
-
-.topbar h2 {
-    color: white;
-    background-color: none;
-    padding: 10px;
+.topbar {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
 }
 
-a.topbarbutton:link, a.topbarbutton:visited {
-    background-color: black;
+.top-bar-link {
+    font-size: 30px;
     color: white;
-    border: 5px solid white;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    padding: 14px 25px;
-    cursor: default;
-    font-family: "Lucida Console", monospace;
-    letter-spacing: 1.5px;
     font-weight: 100;
-    margin-left: 10px;
-    margin-right: 25px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-a.current:link, a.current:visited {
-    border: 5px solid gray;
+.top-bar-link:hover {
+    text-decoration: underline 1px;
 }

@@ -1,0 +1,39 @@
+.contactBox {
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: default;
+    padding: 10px 15px;
+    margin-bottom: 0;
+}
+
+.ctooltip {
+    display: none;
+}
+
+.discord {
+    border: 5px solid rgb(104, 127, 208);
+    background-color: rgb(114, 137, 218);
+}
+
+.discord:hover ~ .DiscordTT {
+    display: block;
+}
+
+.github {
+    border: 5px solid rgb(90, 90, 90);
+    background-color: rgb(100, 100, 100);
+}
+
+.github:hover ~ .GithubTT {
+    display: block;
+}
+
+.email {
+    border: 5px solid rgb(163, 153, 75);
+}
+
+.email:hover ~ .EmailTT {
+    display: block;
+}
